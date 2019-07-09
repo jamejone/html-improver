@@ -1,14 +1,15 @@
+var counter = 0;
 
 var blockPaywall = function() {
     var storyBody = document.getElementsByClassName('js-pre-chunks__story-body');
     if (storyBody.length == 1) {
-        //storyBody[0].style.visibility = "visible";
-
-        console.log("FOUND!");
         storyBody[0].removeAttribute("style");
     }
     
-    setTimeout(blockPaywall, 4000);
+    if (counter < 10) {
+        counter++;
+        setTimeout(blockPaywall, 3000);
+    }
 }
 
 blockPaywall();
