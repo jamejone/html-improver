@@ -1,5 +1,5 @@
-# paywall-blocker
-Chrome plug-in that bypasses the paywall on bizjournals.com.
+# html-improver
+Chrome plug-in that rearranges HTML on bizjournals.com.
 
 # installation instructions
 This plug-in is available on the Chrome Web Store:
